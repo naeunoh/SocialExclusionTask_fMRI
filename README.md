@@ -1,22 +1,18 @@
-# SocialExclusionTask_fMRI
-Task-fMRI using cyberball in the SSK project
-
-## VBTG (Virtual Ball Toss Game)
+## VBTG (Virtual Ball Toss Game### 
 PsychoPy (Python2.7) Version
-* Original version: Communication Neuroscience Lab, University of Pennsylvania (http://cn.asc.upenn.edu), Matt O'Donnell (mbod@asc.upenn.edu)
-* Edited version: Clinical Neuroscience Lab, Seoul National University (http://thecns.snu.ac.kr), Naeun Oh (nadyaoh5@gmail.com)
+* Communication Neuroscience Lab, University of Pennsylvania http://cn.asc.upenn.edu
+* Matt O'Donnell (mbod@asc.upenn.edu)
 
 ### Instructions
 * From standalone PsychoPy IDE
-* open `Final_vbtg_TR2000.py` and run
+* open `vbtg.py` and run
 * From command line with version of Python2.7 in path with PsychoPy and dependencies installed
-* `python Final_vbtg_TR2000.py`
+* `python vbtg.py`
 * Version set up for scanner environment that waits for start trigger from task. Check comments to alter for a scanner that sends trigger.
-* Can read names and images of players from external file
 
-### Related Files & Folders
-* images: images of 3 players throwing a ball
-* pimages: 'date_of_exp\player_id', profile images of players by date of experiment
-* players_list.xlsx: list of players by date of experiment, corresponds with players in 'pimages', must save data in order, ìì‹ ì„ ì œì™¸í•˜ê³  ì €ì¥ëœ ìˆœì„œëŒ€ë¡œ player1, player3ë¡œ ë°°ì •ë¨.
+## Related Files ##
+images: images of 3 players throwing a ball
+pimages: 'date_of_exp/player_id', profile images of players by date
+players_list.xlsx: list of players by date, corresponds with players in 'pimages', must save data in order, ÀÚ½ÅÀ» Á¦¿ÜÇÏ°í ÀúÀåµÈ ¼ø¼­´ë·Î player1, player3·Î ¹èÁ¤µÊ.
 
-* => ì‹¤í—˜ ì‹œì‘í•  ë•Œ ì…ë ¥í•˜ëŠ” subj_id, dateë¡œ player imageì™€ ë‚˜ë¨¸ì§€ playerë“¤ì´ ê²°ì •ë¨. ì½”ë“œ ì§ì ‘ ìˆ˜ì • ë¶ˆí•„ìš”!
+=> ½ÇÇè ½ÃÀÛÇÒ ¶§ ÀÔ·ÂÇÏ´Â subj_id, date·Î player image¿Í ³ª¸ÓÁö playerµéÀÌ °áÁ¤µÊ. ÄÚµå Á÷Á¢ ¼öÁ¤ ºÒÇÊ¿ä!
