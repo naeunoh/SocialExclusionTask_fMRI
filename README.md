@@ -5,7 +5,7 @@ Task-fMRI using cyberball in the SSK project
 PsychoPy (Python2.7) Version
 * Communication Neuroscience Lab, University of Pennsylvania http://cn.asc.upenn.edu
 * Matt O'Donnell (mbod@asc.upenn.edu)
-Edited for use by the Clinical Neuroscience Lab, Seoul National University http://thecns.snu.ac.kr
+* Edited for use by the Clinical Neuroscience Lab, Seoul National University http://thecns.snu.ac.kr
 * Naeun Oh
 
 ### Instructions
