@@ -1,7 +1,9 @@
 ## VBTG (Virtual Ball Toss Game, Cyberball)
 PsychoPy (Python2.7) Version
+
+The code was developed based on the original code from the Communication Neuroscience Lab.
 * Original version: Communication Neuroscience Lab, University of Pennsylvania http://cn.asc.upenn.edu, Matt O'Donnell (mbod@asc.upenn.edu)
-* Edited version: Clinical Neuroscience Lab, Seoul National University http:thecns.snu.ac.r, Naeun Oh (nadyaoh5@hanmail.net)
+* Edited version: Clinical Neuroscience Lab, Seoul National University http://www.thecns.snu.ac.kr/, Naeun Oh (nadyaoh5@hanmail.net)
 
 ### Instructions
 * From standalone PsychoPy IDE
@@ -14,5 +16,5 @@ PsychoPy (Python2.7) Version
 ### Related Files
 * images: images of 3 players throwing a ball
 * pimages: 'date_of_exp/player_id', profile images of players by date
-* players_list.xlsx: list of players by date, corresponds with players in 'pimages', must save data in order, 자신을 제외하고 저장된 순서대로 player1, player3로 배정됨.
-* => 실험 시작할 때 입력하는 subj_id, date로 player image와 나머지 player들이 결정됨. 코드 직접 수정 불필요!
+* players_list.xlsx: list of players by date, corresponds with players in 'pimages'. You must save data in order as the other two players are assigned as player1 and player3 in that order.
+* At the beginning of the experiment, type in 'subj_id' and 'date.' The code will find correspoding images of players.
