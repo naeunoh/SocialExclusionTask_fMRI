@@ -1,9 +1,9 @@
 ## VBTG (Virtual Ball Toss Game, Cyberball)
-PsychoPy (Python2.7) Version
+PsychoPy (Python2.7 Version)
 
 The code was developed based on the original code from the Communication Neuroscience Lab.
 * Original version: Communication Neuroscience Lab, University of Pennsylvania http://cn.asc.upenn.edu, Matt O'Donnell (mbod@asc.upenn.edu)
-* Edited version: Clinical Neuroscience Lab, Seoul National University http://www.thecns.snu.ac.kr/, Naeun Oh (nadyaoh5@hanmail.net)
+* Edited version: Clinical Neuroscience Lab, Seoul National University http://www.thecns.snu.ac.kr/, Naeun Oh (nadyaoh5@gmail.com)
 
 ### Instructions
 * From standalone PsychoPy IDE
