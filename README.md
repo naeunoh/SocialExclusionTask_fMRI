@@ -1,20 +1,7 @@
-## VBTG (Virtual Ball Toss Game, Cyberball)
-PsychoPy (Python2.7 Version)
+# Neural Signature Pattern of Social Exclusion Predicts Loneliness in Older Adults
 
-This task code was developed based on the original code from the Communication Neuroscience Lab.
-* Original version: Communication Neuroscience Lab, University of Pennsylvania http://cn.asc.upenn.edu, Matt O'Donnell (mbod@asc.upenn.edu)
-* Edited version: Clinical Neuroscience Lab, Seoul National University http://www.thecns.snu.ac.kr/, Naeun Oh (nadyaoh5@gmail.com)
+Authors : Naeun Oh, Hairin Kim, Seyul Kwak, Yoosik Youm, Jeanyung Chey
 
-### Instructions
-* From standalone PsychoPy IDE
-* open `Final_vbtg_TRxxxx.py` and run
-* From command line with version of Python2.7 in path with PsychoPy and dependencies installed
-* `python Final_vbtg_TRxxxx.py`
-* This version is set up for a MRI scanner environment that waits for start trigger from task. Check comments to alter for a scanner that sends trigger.
-* The task exe file will read player names and images from external file
+### Abstract
 
-### Related Files
-* images: images of 3 players throwing a ball
-* pimages: 'date_of_exp/player_id', profile images of players by experiment date
-* players_list.xlsx: list of players by experiment date. Each player id corresponds with a single profile image of player in 'pimages'. You must list the players in order as the other two players are assigned as player1 and player3 in that order.
-* At the beginning of the experiment, type in 'subj_id' and 'date.' The code will find the correspoding images of players.
+Social isolation is a critical factor that impacts our mental and physical health in late-life. A specific instance of social isolation is the experience of being ignored or unnoticed by others, namely social exclusion. As the brain is the key organ for forming and maintaining salutary connections with others, understanding the brain mechanisms of social exclusion is important for understanding psychological processes that would complement the existing self-report measures. In addition, examining the relationship between the neural signature response of social exclusion and loneliness outcome can provide insight into the social cognitive aspect of loneliness. This study aims to identify a neural pattern signature of social exclusion in older adults, using multivariate pattern analysis of neural activations during a Cyberball task, and to verify loneliness-related individual differences in the signature. A predictive model was developed to distinguish between a social exclusion and inclusion condition, using a widely distributed neural activation pattern of 88 older adults. The fMRI pattern classifier distinguished social exclusion and inclusion with an accuracy of 0.632 and AUC of 0.693. Voxel-level and region-level feature importance analysis demonstrated that areas contributing most to the prediction are the bilateral inferior parietal lobe, dorsomedial prefrontal cortex, precuneus, amygdala, and the ventral striatum. In relation to individual differences in loneliness, those who perceived more loneliness showed higher neural signature responses during social exclusion. These findings demonstrate that the neural signature of social exclusion is characterized by distributed networks of functional regions, especially the mentalizing and amygdala networks, and that older adults who are lonely may be more sensitive to being socially excluded.
